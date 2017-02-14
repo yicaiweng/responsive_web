@@ -1,7 +1,7 @@
 # responsive_web
 a reservation website design
 
-https://cloud.githubusercontent.com/assets/13059369/22941941/14ee838c-f2ad-11e6-8e17-ee51cf0c5002.png
+![alt text](https://cloud.githubusercontent.com/assets/13059369/22941941/14ee838c-f2ad-11e6-8e17-ee51cf0c5002.png "index page")
 https://cloud.githubusercontent.com/assets/13059369/22941943/14ef227e-f2ad-11e6-9f5d-6c5d858a8e68.png
 https://cloud.githubusercontent.com/assets/13059369/22942056/87842956-f2ad-11e6-8b1b-247987c24266.png
 https://cloud.githubusercontent.com/assets/13059369/22941945/14fbe414-f2ad-11e6-8fe9-e39fe6b3aafd.png
