@@ -1,0 +1,265 @@
+@font-face{
+  font-family: Lato;
+  src: url();
+}
+
+body{
+  /*font-family:15px/1.5 'Lato', Arial, Helvetica sans-serif;*/
+  font-family: 'Lato', Arial, Helvetica, sans-serif;;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+/*global*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+.button_1{
+  background: #6CDB98;
+  color: #ffffff;
+  height: 35px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*header*/
+header{
+  background-color: #3A8BC2;
+  color: #ffffff;
+  padding: 20px;
+  min-height: 70px;
+  border-bottom: #6CDB98 1px solid;
+}
+
+header li{
+  display: inline;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 5px;
+}
+
+header nav{
+  margin-top: 15px;
+  float: right;
+}
+header #logo{
+  float: left;
+}
+
+header #logo h1{
+  padding: 0 0 0 20px;
+}
+
+header .hightlight, header .current a{
+  color: #6CDB98;
+
+}
+
+header a:hover{
+  color: #A5C4E3;
+  font-weight: bold;
+}
+
+/*index page style*/
+/*searchbar*/
+#searchBar{
+  padding: 0 0 0 30px;
+  min-height: 10px;
+  margin-top: 5px;
+}
+
+#searchBar select{
+  margin: 5px;
+  width: 15%;
+  height: 30px;
+}
+
+#searchBar input[type="number"]{
+  width: 15%;
+  height: 30px;
+}
+
+/*showcase*/
+#showcase {
+  min-height: 500px;
+  background-color: #cccccc;
+  /*background-repeat: no-repeat;*/
+  position: relative;
+}
+
+#showcase .container, #showcase .backgroundImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#showcase img {
+  width: 100%;
+  height: 100%;
+}
+
+#showcase .container {
+  z-index: 10;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  text-align: center;
+}
+
+#showcase p{
+  font-size: 20px;
+  text-align: center;
+}
+/*newsletter*/
+#newsletter{
+  padding: 15px;
+  color: #ffffff;
+  background:#3A8BC2;
+}
+
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form{
+  float:right;
+  margin-top: 15px;
+}
+
+#newsletter input[type='email']{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/*about page style*/
+#aboutShowcase{
+  min-height: 500px;
+  background-color: #cccccc;
+  border-bottom: #6CDB98 2px solid;
+}
+
+#aboutShowcase h1{
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#aboutShowcase p{
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+/*boxes*/
+#boxes{
+  margin-top: 2px;
+  border-bottom: #6CDB98 2px solid;
+  background-color: #cccccc;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+/*signin page style*/
+#form{
+  background: #cccccc;
+  text-align: center;
+  min-height: 650px;
+}
+#signin h1, #signup h1{
+  font-size: 70px;
+}
+
+#form input{
+  width: 40%;
+  min-height: 30px;
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 20px;
+  border:none;
+}
+ #form .formButton {
+   background: #6CDB98;
+   color: #ffffff;
+   width: 20%;
+   min-height: 30px;
+   border: none;
+   font-size: 20px;
+   padding: 10px;
+ }
+
+#signin a, #signup  a{
+  text-decoration: none;
+}
+/*footer*/
+footer{
+  padding: 15px;
+  margin-top:5px;
+  color: #ffffff;
+  background-color: #6CDB98;
+  text-align: center;
+}
+
+/* possible way to fix background image in showcase
+div{
+  width: 100%;
+  height: 400px;
+  background-img: url();
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none
+}
+*/
+
+/*media queries*/
+@media(max-width: 768px){
+  header nav,
+  header #logo,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    margin-top: 10px;
+  }
+
+  #showcase img{
+    width:100%;
+    height:100%;
+  }
+
+  #newsletter button, .quote button{
+    display: block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}

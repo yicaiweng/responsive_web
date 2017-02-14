@@ -1,0 +1,89 @@
+<!-- created by yicai -->
+
+<!DOCTYPE html>
+<html ng-app="sudoRsvp">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="author" content="Cary, William, Yicai">
+	<meta name="description" content="making reservation easier">
+	<meta name="keywords" content="making reservation with busy restaurants and places">
+
+	<title>SudoRSVP | Welcome</title>
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+	<script src="js/controller/indexController.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/lib/bootstrap.min.js"></script>
+	<!-- custon fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"></head>
+
+<body>
+<!-- header and menu bar -->
+	<header>
+		<div class="container">
+			<div id="logo">
+				<h1><span class="hightlight">Sudo</span><font color="#FFF212">R</font><font color="#E88B48">S</font><font color="#00AFEF">V</font><font color="#815AA4">P</font>
+				</h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="current"><a href="sudo.index.html">Home</a></li>
+					<li><a href="html/about.html">About</a></li>
+					<li><a href="html/signin.html">Sign In</a></li>
+					<li><a href="html/signup.html">Sign Up</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+<!-- searchbar  -->
+	<section id="searchBar">
+		<div class="container">
+			<select>
+				<option value=" ">location1</option>
+				<option value=" " >location2</option>
+			</select>
+			<select>
+				<option value=" ">time 1</option>
+				<option value=" ">time 2</option>
+			</select>
+			<select>
+				<option value=" ">search</option>
+				<option value=" ">reservation</option>
+			</select>
+				<input type="number" placeholder="Enter party size">
+				<button class="button_1" type="submit" value="Go!">Go!</button>
+		</div>
+	</section>
+
+<!-- showcase -->
+<section id="showcase">
+	<!-- <div class="backgroundImg"><img src="img/mickey_copy.jpg"></div> -->
+	<div class="container">
+		<h1> Hello, Users!</h1>
+		<p>Do you have trouble booking your favorite restaurant? We are here to help you </p>
+	</div>
+</section>
+
+	<!-- newsletter -->
+	<section id="newsletter">
+		<div class="container">
+			<h1>Subscribe To Newsletter</h1>
+			<form>
+				<input type="email" placeholder="Enter Your Email To Subscribe!">
+				<button type="submit" class="button_1">Subscribe!</button>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<p>
+			Product of OhMyGah, Copyright &copy; 2017
+		</p>
+	</footer>
+	</body>
+</html>
